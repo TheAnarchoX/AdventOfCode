@@ -10,7 +10,7 @@ def solve():
     for module in data:
         result = result + getFuel(module)
 
-    print(result)
+    print("Result: ", result)
 
 def getFuel(module):
     res = 0
