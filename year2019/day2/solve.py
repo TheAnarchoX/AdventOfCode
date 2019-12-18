@@ -10,6 +10,8 @@ INPUT_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "input.tx
 
 def solve():
     """ Solve https://adventofcode.com/2019/day/2"""
+    print(f'Solving AoC Day 2: https://adventofcode.com/2019/day/2')
+
     print("Generating map")
     value_map = [(x, y) for x in range(0, 100) for y in range(0, 100)]
     data = [int(module) for module in open(INPUT_PATH, 'r').read().split(',')]
